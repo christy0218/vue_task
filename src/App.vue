@@ -1,6 +1,6 @@
  <template>
 	<div id="app">
-    	<h1>Todo Task</h1>
+		<h1>Todo Task</h1>
 		<main class="flexbox">
 			<!-- To Do Column -->
 			<TodoBoard id="to_do" :all="todos">
@@ -126,7 +126,7 @@ export default {
 
 // Page Title
 h1 {
-  	margin-top: 40px;
+	margin-top: 40px;
 }
 
 // Todo list
@@ -171,13 +171,13 @@ h1 {
 	.card {
 		cursor: pointer;
 		margin: 10px 0;
-        padding: 20px;
-        border: 1px solid #9f9f9f;
-        border-radius: 20px;
-        .title {
-            font-weight: 600;
-            font-size: 20px;
-        }
+		padding: 20px;
+		border: 1px solid #9f9f9f;
+		border-radius: 20px;
+		.title {
+				font-weight: 600;
+				font-size: 20px;
+		}
 	}
 }
 </style>
